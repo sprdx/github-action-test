@@ -7,7 +7,7 @@ import (
 )
 
 func helloController(c echo.Context) error {
-	message := "Hello World from Golang"
+	message := "Hello World from Github Action"
 
 	return c.JSON(http.StatusOK, message)
 }
